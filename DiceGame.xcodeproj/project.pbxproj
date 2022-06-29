@@ -11,6 +11,10 @@
 		605DFE932867152200304098 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DFE922867152200304098 /* ContentView.swift */; };
 		605DFE952867152C00304098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605DFE942867152C00304098 /* Assets.xcassets */; };
 		605DFE982867152C00304098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605DFE972867152C00304098 /* Preview Assets.xcassets */; };
+		605E3782286B4AEB00B1C7AF /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E3781286B4AEA00B1C7AF /* PlayingView.swift */; };
+		605E3787286B4B9E00B1C7AF /* PlayingView-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E3786286B4B9E00B1C7AF /* PlayingView-Model.swift */; };
+		605E3789286B4EC300B1C7AF /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E3788286B4EC300B1C7AF /* DiceView.swift */; };
+		60D987FE2867399B0075A23A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D987FD2867399B0075A23A /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		605DFE922867152200304098 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		605DFE942867152C00304098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605DFE972867152C00304098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		605E3781286B4AEA00B1C7AF /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		605E3786286B4B9E00B1C7AF /* PlayingView-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayingView-Model.swift"; sourceTree = "<group>"; };
+		605E3788286B4EC300B1C7AF /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		60D987FD2867399B0075A23A /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				605DFE902867152200304098 /* DiceGameApp.swift */,
-				605DFE922867152200304098 /* ContentView.swift */,
+				605E3784286B4B5900B1C7AF /* Model */,
+				605E3783286B4B5000B1C7AF /* View */,
+				605E3785286B4B6F00B1C7AF /* ViewModel */,
 				605DFE942867152C00304098 /* Assets.xcassets */,
 				605DFE962867152C00304098 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				605DFE972867152C00304098 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		605E3783286B4B5000B1C7AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				605DFE922867152200304098 /* ContentView.swift */,
+				605E3781286B4AEA00B1C7AF /* PlayingView.swift */,
+				605E3788286B4EC300B1C7AF /* DiceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		605E3784286B4B5900B1C7AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60D987FD2867399B0075A23A /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		605E3785286B4B6F00B1C7AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				605E3786286B4B9E00B1C7AF /* PlayingView-Model.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				605DFE932867152200304098 /* ContentView.swift in Sources */,
+				605E3789286B4EC300B1C7AF /* DiceView.swift in Sources */,
+				60D987FE2867399B0075A23A /* Score.swift in Sources */,
 				605DFE912867152200304098 /* DiceGameApp.swift in Sources */,
+				605E3782286B4AEB00B1C7AF /* PlayingView.swift in Sources */,
+				605E3787286B4B9E00B1C7AF /* PlayingView-Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
