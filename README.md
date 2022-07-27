@@ -1,2 +1,2 @@
 # DiceGame
-![](DiceGame.gif)
+![](DiceGif.gif)
